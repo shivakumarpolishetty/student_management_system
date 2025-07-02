@@ -20,9 +20,6 @@ A simple web application built with **Spring Boot + Thymeleaf** that allows user
 
 ---
 
-## 📸 Screenshots
-
-
 ---
 
 ## 🚀 How to Run
