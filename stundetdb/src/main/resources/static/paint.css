@@ -1,0 +1,91 @@
+/* Body setup to center everything */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+	
+	font-style:none;
+	
+	text-decoration:none;
+	
+}
+.delete{
+	color:red;
+	padding:0.5rem;
+}
+
+.edit{
+	color:green;
+	padding:0.5rem;
+}
+
+
+/* Wrapper to group and align content */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Style for headings */
+h2, h3 {
+    margin-top: 0;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="number"] {
+    width: 300px;
+    padding: 4px 4px;
+   /*  margin: 15px 0 5px 0; */
+   margin:auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Button style */
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Response message */
+p {
+    font-weight: bold;
+    margin: 10px 0;
+}
